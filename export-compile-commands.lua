@@ -53,7 +53,7 @@ function m.generateCompileCommand(prj, cfg, node)
   return {
     directory = prj.location,
     file = node.abspath,
-    command = 'cc '.. table.concat(m.getFileFlags(prj, cfg, node), ' ')
+    command = 'g++ '.. table.concat(m.getFileFlags(prj, cfg, node), ' ') -- Changed to G++ instead of cc
   }
 end
 

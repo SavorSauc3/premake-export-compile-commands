@@ -1,4 +1,4 @@
-## Generate compile_commands.json for premake projects
+## Generate compile_commands.json for premake projects (C++ Version)
 
 This module implements [JSON Compilation Database Format
 Specification](http://clang.llvm.org/docs/JSONCompilationDatabase.html) for
